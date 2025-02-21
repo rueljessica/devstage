@@ -1,34 +1,65 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# NLW Connect | Rocketseat
 
-First, run the development server:
+O DevStage é uma plataforma web desenvolvida para gerenciar indicações para eventos de tecnologia. O sistema permite que usuários se cadastrem e convidem amigos através de links de indicação, criando um ranking dinâmico que destaca os participantes mais ativos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## 🚀 Tecnologias Utilizadas
+
+- TypeScript
+- React.js
+- Next.js
+- Node.js
+- Tailwind CSS
+- React Hook Form
+- Zod
+- Biome
+- Orval
+
+## 🔧 Como Executar
+
+1. Clone o repositório:
+```
+git clone https://github.com/rueljessica/devstage.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Instale as dependências:
+```
+npm install
+```
+3. Inicie o servidor de desenvolvimento:
+```
+npm run dev
+```
+4. Abra a seguinte página no navegador:
+```
+http://localhost:3000
+```
 
-## Learn More
+## 🌟 Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- Sistema de cadastro de usuários
+- Geração de links de indicação personalizados
+- Ranking em tempo real dos participantes
+- Destaque para os top 3 indicadores
+- Interface responsiva e moderna
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Habilidades Desenvolvidas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Fundamentos do React e Next.js
+- Composition Pattern com React
+- Estilização avançada com Tailwind CSS
+- Roteamento utilizando App Router
+- Implementação de Server e Client Components
+- Desenvolvimento de formulário com React Hook Form
+- Criação de cliente HTTP com Orval
+- Configuração de ferramentas de desenvolvimento com Biome
+- Validação de dados com Zod
+- Tipagem estática com TypeScript
 
-## Deploy on Vercel
+## 📜 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto foi desenvolvido para fins educacionais durante o evento NLW Connect.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
